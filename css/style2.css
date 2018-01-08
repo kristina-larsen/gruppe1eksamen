@@ -521,7 +521,6 @@ h3 {
   section .image .frontpageimage1 {
     width: 100%;
     height: auto;
-    margin-bottom: 2%;
     z-index: -2;
   }
   section .image h2 {
@@ -545,7 +544,6 @@ h3 {
   section .image2 .frontpageimage2 {
     width: 100%;
     height: auto;
-    margin-bottom: 2%;
     z-index: -2;
   }
   section .image2 h2 {
@@ -569,7 +567,6 @@ h3 {
   section .image3 .frontpageimage3 {
     width: 100%;
     height: auto;
-    margin-bottom: 2%;
     z-index: -2;
   }
   section .image3 h2 {
