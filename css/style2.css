@@ -202,7 +202,7 @@ h3 {
 }
 
 /* Start footer */
-.footer, .footerfrontpage {
+.foter, .foterfrontpage {
   height: 150px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -210,28 +210,28 @@ h3 {
   position: absolute;
   margin-top: -1.2%;
 }
-.footer a, .footerfrontpage a {
+.foter a, .foterfrontpage a {
   float: right;
   margin-top: 13%;
   margin-right: 7%;
 }
-.footer a i.fa-facebook-square, .footerfrontpage a i.fa-facebook-square {
+.foter a i.fa-facebook-square, .foterfrontpage a i.fa-facebook-square {
   height: auto;
   font-size: 40px;
   color: white;
 }
-.footer section, .footerfrontpage section {
+.foter section, .foterfrontpage section {
   float: left;
   margin-left: 7%;
   margin-top: 10%;
 }
-.footer section li, .footerfrontpage section li {
+.foter section li, .foterfrontpage section li {
   font-size: 12px;
   list-style: none;
   color: black;
   font-family: 'Cormorant Garamond', serif;
 }
-.footer p, .footerfrontpage p {
+.foter p, .foterfrontpage p {
   font-size: 10px;
   color: black;
   font-family: 'Cormorant Garamond', serif;
@@ -359,27 +359,27 @@ h3 {
   }
 
   /* Start footer */
-  .footer, .footerfrontpage {
+  .foter, .foterfrontpage {
     height: 280px;
   }
-  .footer a i, .footerfrontpage a i {
+  .foter a i, .foterfrontpage a i {
     margin-right: -6%;
   }
-  .footer a i.fa-facebook-square, .footerfrontpage a i.fa-facebook-square {
+  .foter a i.fa-facebook-square, .foterfrontpage a i.fa-facebook-square {
     font-size: 75px;
   }
-  .footer section, .footerfrontpage section {
+  .foter section, .foterfrontpage section {
     float: left;
     margin-right: 2%;
     margin-top: 10%;
   }
-  .footer section li, .footerfrontpage section li {
+  .foter section li, .foterfrontpage section li {
     font-size: 23px;
     list-style: none;
     color: black;
     font-family: 'Cormorant Garamond', serif;
   }
-  .footer p, .footerfrontpage p {
+  .foter p, .foterfrontpage p {
     font-size: 18px;
     color: black;
     font-family: 'Cormorant Garamond', serif;
@@ -420,7 +420,7 @@ h3 {
   header ul img {
     width: 10%;
     height: auto;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   header ul .fp {
     float: left;
@@ -490,7 +490,6 @@ h3 {
     padding-top: 8%;
     padding-bottom: 5%;
     font-family: 'Cormorant Garamond', serif;
-    background-color: #F1F2FF;
     font-style: normal;
   }
 
@@ -525,7 +524,7 @@ h3 {
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -59%;
+    margin-top: -55.5%;
     font-weight: normal;
   }
   section .image2 {
@@ -543,14 +542,14 @@ h3 {
   }
   section .image2 h2 {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 70px 40px;
+    padding: 82px 40px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -59%;
+    margin-top: -55.5%;
     font-weight: normal;
   }
   section .image3 {
@@ -568,7 +567,7 @@ h3 {
   }
   section .image3 h2 {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 70px 40px;
+    padding: 82px 40px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
@@ -576,7 +575,7 @@ h3 {
     font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -59%;
+    margin-top: -55.5%;
     font-weight: normal;
   }
 
@@ -630,6 +629,7 @@ h3 {
     font-family: 'Cormorant Garamond', serif;
     background-image: url("../img/background2.png");
     background-size: cover;
+    font-weight: normal;
   }
 
   .atelierbillede2 {
@@ -645,7 +645,7 @@ h3 {
   }
 
   /* footer forside*/
-  .footerfrontpage {
+  .foterfrontpage {
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("../img/hihi.jpeg");
     background-attachment: fixed;
@@ -653,56 +653,56 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 184%;
+    top: 202%;
     height: 325px;
     width: 100%;
     position: absolute;
   }
-  .footerfrontpage a {
+  .foterfrontpage a {
     float: left;
-    margin-left: 11.5%;
+    margin-left: 12.5%;
     margin-top: 6%;
     margin-bottom: -1%;
   }
-  .footerfrontpage a i.fa-facebook-square {
+  .foterfrontpage a i.fa-facebook-square {
     width: 20px;
     height: auto;
     font-size: 60px;
   }
-  .footerfrontpage section {
+  .foterfrontpage section {
     color: white;
     margin-left: 2%;
     display: block;
     margin-top: 11.5%;
   }
-  .footerfrontpage section li {
+  .foterfrontpage section li {
     font-size: 22px;
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
     color: white;
     text-align: center;
-    margin-left: -127%;
+    margin-left: -129.5%;
   }
-  .footerfrontpage section h5 {
+  .foterfrontpage section h5 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 15px;
     color: white;
   }
-  .footerfrontpage section h6 {
+  .foterfrontpage section h6 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 15px;
     color: white;
     margin-top: 1%;
   }
-  .footerfrontpage section form {
-    margin-top: -25%;
+  .foterfrontpage section form {
+    margin-top: -27%;
     margin-left: 16%;
   }
-  .footerfrontpage section form .søgefelt1 {
+  .foterfrontpage section form .søgefelt1 {
     width: 780px;
     height: 25px;
   }
-  .footerfrontpage p {
+  .foterfrontpage p {
     margin-right: 45%;
     margin-top: 2.5%;
     font-size: 16px;
@@ -710,7 +710,7 @@ h3 {
   }
 
   /*Footer atelier 1b*/
-  .footer {
+  .foter {
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("../img/hihi.jpeg");
     background-attachment: fixed;
@@ -721,35 +721,33 @@ h3 {
     height: 325px;
     width: 100%;
     clear: both;
-    /* kl */
-    /* margin-top: 29.5%; */
     position: inherit;
   }
-  .footer a {
+  .foter a {
     float: right;
     margin-left: 40%;
     margin-top: 10%;
     font-size: 50px;
   }
-  .footer a i.fa-facebook-square {
+  .foter a i.fa-facebook-square {
     margin-top: 2%;
   }
-  .footer section {
+  .foter section {
     color: white;
     margin-left: 6%;
     display: block;
     margin-top: 9%;
   }
-  .footer section li {
+  .foter section li {
     font-size: 25px;
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
     color: white;
     text-align: left;
   }
-  .footer p {
+  .foter p {
     margin-right: 45%;
-    margin-top: 7.7%;
+    margin-top: 6%;
     font-size: 16px;
     color: white;
   }
