@@ -472,10 +472,20 @@ img {
 
   font-family: 'Cormorant Garamond', serif;;
     font-size: 20px;
+    }
 
+/* Hover */
+    .link {
+    text-decoration: none;
     }
 
 
+.active {
+text-decoration: none;
+background: rgba(240,240,240,0.9);
+}
+
+/* Hover */
 
     a, .dropbtn {
       display: inline-block;
@@ -499,6 +509,7 @@ img {
 
 
         .dropdown-content {
+          margin-top: -0.3%;
           display: none;
           position: absolute;
           background-color: rgba(255,255,255,0.8);
@@ -512,8 +523,10 @@ img {
             display: block;
             text-align: left;
 
+
+
             &:hover, .dropdown-content {
-              background-color: #f1f1f1
+              background-color: #f1f1f1;
             }
           }
         }
