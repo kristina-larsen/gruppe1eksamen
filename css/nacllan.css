@@ -322,9 +322,7 @@ p {
 @media screen and (min-width: 768px) {
 
 
-body {
-background-color:red;
-}
+
 
 .fa-bars {
   font-size: 30px;
@@ -372,9 +370,7 @@ footer p {
 
 @media screen and (min-width: 992px) {
   /*Alt det her er på desktop versionen, hvor min menubar vises. Den er færdiglavet*/
-body {
-  background-color: green;
-}
+
 
 
   header {
@@ -399,7 +395,6 @@ body {
     overflow: hidden;
     background: rgba(240, 240, 240, 0.8);
     width: 100%;
-    height: 70px;
     display: block;
   }
   header ul img {
@@ -424,7 +419,7 @@ body {
     display: inline-block;
     color: #000000;
     text-align: center;
-    padding: 25px 16px;
+    padding: 35px 16px;
     text-decoration: none;
     /*Når man rører tekst i menubar*/
   }
@@ -607,7 +602,8 @@ font-size: 30px;
     height: 325px;
     width: 100%;
     margin-top: 29.5%;
-    position: inherit;
+    position: static;
+    overflow-y: auto;
   }
   footer a {
     float: right;
