@@ -15,7 +15,6 @@ img {
 
 /*iphone/ipad*/
 body {
-  background-color: green;
   /*OM SIDEN*/
   /*NY SIDE - Produktportfolio*/
   /*Brøndum billede*/
@@ -539,7 +538,6 @@ footer p {
     overflow: hidden;
     background: rgba(240, 240, 240, 0.8);
     width: 100%;
-    height: 70px;
     display: block;
   }
   body header ul img {
@@ -555,13 +553,18 @@ footer p {
     float: right;
     display: block;
     margin-right: 75px;
+    /* Hover */
   }
   body header ul li a {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
   }
-  body header ul li:active {
-    background-color: yellow;
+  body header ul li .link {
+    text-decoration: none;
+  }
+  body header ul li .active {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.6);
   }
   body header ul li a, body header ul li .dropbtn {
     display: inline-block;
@@ -811,6 +814,7 @@ footer p {
     display: block;
     width: 90%;
     margin-left: 2%;
+    float: left;
     height: auto;
     -webkit-transition: .5s ease;
     transition: .5s ease;
