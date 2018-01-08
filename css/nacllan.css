@@ -450,6 +450,18 @@ footer p {
     display: block;
   }
 
+  /* Hover */
+      .link {
+      text-decoration: none;
+      }
+
+
+  .active {
+  text-decoration: none;
+  background: rgba(255,255,255,0.6);
+}
+/*Hover slut*/
+
 /*Produktlancering start*/
 p{
   font-size: 20px;
