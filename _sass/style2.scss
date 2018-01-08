@@ -509,12 +509,12 @@ background: rgba(240,240,240,0.9);
 
 
         .dropdown-content {
-          margin-top: -0.3%;
           display: none;
           position: absolute;
           background-color: rgba(255,255,255,0.8);
           margin-right: 0.5%;
           z-index: 1;
+          margin-top: -0.3%;
 
           a {
             color: black;
@@ -576,7 +576,6 @@ section {
 .image {
 position: relative;
 display: block;
-padding-bottom: 3%;
 width: 33.3%;
 z-index: -2;
 
@@ -596,7 +595,7 @@ z-index: -2;
             vertical-align: middle;
             font-family: 'Cormorant Garamond', serif;;
             position: absolute;
-            margin-top: -55.5%;
+            margin-top: -50%;
             font-weight: normal;
  }
 }
@@ -604,7 +603,6 @@ z-index: -2;
 .image2 {
   position: relative;
   display: block;
-  padding-bottom: 3%;
   width: 33.3%;
   z-index: -2;
 
@@ -617,14 +615,14 @@ z-index: -2;
 
                     h2 {
                      background-color: rgba(255,255,255, 0.7);
-                     padding: 82px 40px;
+                     padding: 70px 40px;
                      text-align: center;
                      font-style: italic;
                      font-size: 20px;
                      vertical-align: middle;
                      font-family: 'Cormorant Garamond', serif;;
                      position: absolute;
-                     margin-top: -55.5%;
+                     margin-top: -50%;
                      font-weight: normal;
  }
 }
@@ -632,7 +630,6 @@ z-index: -2;
 .image3 {
 position: relative;
 display: block;
-padding-bottom: 3%;
 width: 33.3%;
 z-index: -2;
 
@@ -645,7 +642,7 @@ z-index: -2;
 
          h2 {
           background-color: rgba(255,255,255, 0.7);
-          padding: 82px 40px;
+          padding: 70px 40px;
           text-align: center;
           font-style: italic;
           font-size: 20px;
@@ -653,7 +650,7 @@ z-index: -2;
           font-weight: lighter;
           font-family: 'Cormorant Garamond', serif;;
           position: absolute;
-          margin-top: -55.5%;
+          margin-top: -50%;
           font-weight: normal;
    }
   }
@@ -668,7 +665,6 @@ z-index: -2;
 }
 
 /* Atelier 1b desktop */
-
 body {
   background-image: url('../img/background9.png');
 }
@@ -741,10 +737,11 @@ padding-top: 0%;
    bottom:0;
    left:0;
    right:0;
-   top:202%;
+   top:0;
    height: 325px;
    width: 100%;
-   position: absolute;
+   position: inherit;
+   clear: both;
 
 
 

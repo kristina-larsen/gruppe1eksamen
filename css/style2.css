@@ -459,12 +459,12 @@ h3 {
     display: inline-block;
   }
   header ul li.dropdown .dropdown-content {
-    margin-top: -0.3%;
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     margin-right: 0.5%;
     z-index: 1;
+    margin-top: -0.3%;
   }
   header ul li.dropdown .dropdown-content a {
     color: black;
@@ -515,7 +515,6 @@ h3 {
   section .image {
     position: relative;
     display: block;
-    padding-bottom: 3%;
     width: 33.3%;
     z-index: -2;
   }
@@ -534,13 +533,12 @@ h3 {
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -55.5%;
+    margin-top: -50%;
     font-weight: normal;
   }
   section .image2 {
     position: relative;
     display: block;
-    padding-bottom: 3%;
     width: 33.3%;
     z-index: -2;
   }
@@ -552,20 +550,19 @@ h3 {
   }
   section .image2 h2 {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 82px 40px;
+    padding: 70px 40px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -55.5%;
+    margin-top: -50%;
     font-weight: normal;
   }
   section .image3 {
     position: relative;
     display: block;
-    padding-bottom: 3%;
     width: 33.3%;
     z-index: -2;
   }
@@ -577,7 +574,7 @@ h3 {
   }
   section .image3 h2 {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 82px 40px;
+    padding: 70px 40px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
@@ -585,7 +582,7 @@ h3 {
     font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -55.5%;
+    margin-top: -50%;
     font-weight: normal;
   }
 
@@ -663,10 +660,11 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 202%;
+    top: 0;
     height: 325px;
     width: 100%;
-    position: absolute;
+    position: inherit;
+    clear: both;
   }
   .foterfrontpage a {
     float: left;
