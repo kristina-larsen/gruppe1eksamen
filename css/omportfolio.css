@@ -18,6 +18,9 @@ body {
   /*FORSIDE mobil*/
   /*SLUT FORSIDE*/
   /* ATELIER 1B Mobil */
+  /*body {
+    background-image: url('../img/background9.png');
+  }*/
   /*SLUT ATELIER*/
   /*OM SIDEN mobil*/
 }
@@ -73,7 +76,7 @@ body header nav {
   /*Style når burgermenu er åben*/
 }
 body header nav a {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   float: none;
   height: 45px;
   color: black;
@@ -166,9 +169,6 @@ body h1 {
 }
 body .picturefrontdown {
   width: 100%;
-}
-body body {
-  background-image: url("../img/background9.png");
 }
 body .atelierdiv {
   position: relative;
@@ -298,7 +298,7 @@ body main .middle {
   opacity: 0.8;
   position: absolute;
   top: 17%;
-  left: 29%;
+  left: 28%;
   /*transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)*/
 }
@@ -403,7 +403,7 @@ body main .middle3 {
   transition: .5s ease;
   opacity: 0.8;
   position: absolute;
-  top: 82%;
+  top: 75%;
   left: 32%;
   /*transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)*/
@@ -622,7 +622,7 @@ form {
     transition: .5s ease;
     opacity: 0.8;
     position: absolute;
-    top: 70%;
+    top: 64%;
     left: 40%;
   }
   body main .h3 {
@@ -823,7 +823,7 @@ form {
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -50%;
+    margin-top: -48%;
     font-weight: normal;
   }
   body section .image2 {
@@ -846,7 +846,7 @@ form {
     vertical-align: middle;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -50%;
+    margin-top: -48%;
     font-weight: normal;
   }
   body section .image3 {
@@ -870,7 +870,7 @@ form {
     font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    margin-top: -50%;
+    margin-top: -48%;
     font-weight: normal;
   }
   body .box {
@@ -879,9 +879,6 @@ form {
     margin-bottom: -1%;
     width: 100%;
     height: 80px;
-  }
-  body body {
-    background-image: url("../img/background9.png");
   }
   body .atelierdiv {
     position: relative;
@@ -946,7 +943,7 @@ form {
   }
   body main .omos {
     font-size: 25px;
-    margin-left: 37%;
+    margin-left: 34%;
     padding-top: 40%;
   }
   body main .historien {
@@ -955,61 +952,71 @@ form {
     margin-right: 14%;
     margin-top: 5%;
     margin-bottom: 10%;
+    line-height: 2;
   }
   body main .rasmus {
-    margin-right: 17%;
     float: right;
-    padding-top: 10%;
     font-size: 22px;
+    margin-top: 14%;
+    margin-right: 34%;
+    margin-bottom: 2%;
   }
   body main .rasmuspic {
-    width: 50%;
+    width: 38%;
     height: auto;
     margin-top: -22%;
+    margin-left: 7%;
   }
   body main .omras {
     font-size: 16px;
+    line-height: 2;
     float: right;
-    margin-left: 61%;
-    margin-right: 10%;
-    margin-top: -35%;
+    margin-top: -17%;
+    margin-right: 7%;
+    margin-left: 51%;
   }
   body main .morten {
     float: right;
-    margin-right: 19%;
-    margin-top: 18%;
     font-size: 20px;
+    margin-top: 27%;
+    margin-right: 35%;
+    margin-bottom: 3%;
   }
   body main .mortenpic {
-    width: 50%;
+    width: 38%;
     height: auto;
-    margin-top: -16%;
+    float: left;
+    margin-top: -37%;
+    margin-left: 6.8%;
   }
   body main .ommorten {
     font-size: 16px;
-    margin-left: 64%;
-    margin-right: 9%;
-    margin-top: -38%;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-left: 52%;
+    line-height: 2;
   }
   body main .gin {
     float: right;
-    margin-right: 22%;
-    margin-top: 28%;
+    margin-top: 14%;
+    margin-right: 40.5%;
     font-size: 20px;
   }
   body main .ginpic {
-    margin-top: -24%;
-    margin-bottom: 2%;
-    width: 50%;
+    width: 38%;
     height: auto;
+    margin-top: -27%;
+    margin-left: 6.7%;
+    margin-bottom: 2%;
   }
   body main .omgin {
     font-size: 16px;
     float: right;
-    margin-left: 60%;
+    margin-top: -13%;
     margin-right: 5%;
-    margin-top: -26%;
-    margin-bottom: 10%;
+    margin-left: 53%;
+    margin-bottom: 4%;
+    line-height: 2;
   }
   body main .container {
     width: 50%;
@@ -1039,7 +1046,7 @@ form {
     -ms-transform: translate(-50%, -50%);
   }
   body main .container:hover .image {
-    opacity: 0.2;
+    opacity: 1;
   }
   body main .container:hover .middle {
     opacity: 1;
@@ -1110,12 +1117,12 @@ form {
   body main .arla .h2 {
     float: left;
     margin-left: 20%;
-    margin-top: -28%;
+    margin-top: -25%;
     font-size: 23px;
   }
   body main .arla .p2 {
     float: left;
-    margin-top: -23%;
+    margin-top: -20%;
     margin-left: 4%;
     margin-right: 54%;
   }
@@ -1194,7 +1201,7 @@ form {
   .foterfrontpage a {
     float: left;
     margin-left: 12.5%;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: -1%;
   }
   .foterfrontpage a i.fa-facebook-square {
@@ -1206,7 +1213,7 @@ form {
     color: white;
     margin-left: 2%;
     display: block;
-    margin-top: 11.5%;
+    margin-top: 10.5%;
   }
   .foterfrontpage section li {
     font-size: 22px;
@@ -1217,28 +1224,28 @@ form {
     margin-left: -129.5%;
   }
   .foterfrontpage section h5 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
     color: white;
   }
   .foterfrontpage section h6 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
     color: white;
-    margin-top: 1%;
+    margin-top: 1.5%;
   }
   .foterfrontpage section form {
     display: block;
-    margin-top: -27%;
+    margin-top: -24%;
     margin-left: 16%;
   }
   .foterfrontpage section form .søgefelt1 {
-    width: 780px;
-    height: 25px;
+    width: 825px;
+    height: 20px;
   }
   .foterfrontpage p {
     margin-right: 45%;
-    margin-top: 2.5%;
+    margin-top: 1.5%;
     font-size: 16px;
     color: white;
   }
@@ -1281,7 +1288,7 @@ form {
   }
   .foter p {
     margin-right: 45%;
-    margin-top: 6%;
+    margin-top: 5%;
     font-size: 16px;
     color: white;
   }
